@@ -1,0 +1,126 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+* {
+    font-family: "Inter";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-header {
+    background-color: #F3F4FB;
+    padding: 20px 255px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    gap: 25px;
+}
+.btn {
+    padding: 10px 10px;
+    color: #fff !important ;
+    background-color: #4468E7;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 255px;
+    border-bottom: 1px solid #efefef;
+    
+}
+.link{
+    display: flex;
+    gap: 25px;
+}
+.link li{
+    list-style: none;
+}
+    
+.link li a{
+    text-decoration: none;
+    color: black;
+}
+.link li a:hover{
+    text-decoration: none;
+    color: #4468E7;
+}
+.active{
+    color: #4468E7 !important;
+}
+
+/* content */
+.content{
+    display: grid ;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 25px 255px;
+    gap : 50px
+}
+.content-title{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.content-subtitle{
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content .btn{
+    padding: 10px 10px;
+    color: #fff ;
+    background-color: #4468E7;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.content-image{
+    width: 100%;
+}
+
+/* Conten Project */
+.content_project{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    padding: 20px 255px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project-title{
+    color: rgb(121, 116, 116);
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-subtitle{
+    color: #4468E7;
+    font-size: 32px;
+    font-weight: 600;
+}
+.project-subtitles{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px 255px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: space-between;
+    gap: 25px;
+    border-top: 1px solid #efefef;
+    
+}
+.footer .link li a{
+    text-decoration: none;
+    color: rgb(131, 127, 127);
+}
